@@ -46,8 +46,9 @@ a:hover {
 
 /* intro style*/
 #intro {
-    padding-top: 6rem;
-    padding-bottom: 10rem;
+    padding: 4rem 1rem 10rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #intro p {
@@ -132,6 +133,9 @@ nav a:hover {
     padding: 0.25rem;
     background-color: var(--magenta);
     border-radius: 5px;
+    color: white;
+    font-family:var(--mono);
+    text-decoration: none;
 }
 
 .button:hover {
@@ -140,7 +144,7 @@ nav a:hover {
 }
 
 footer {
-    padding-top: 2rem;
+    padding: 4rem 0;
     text-align: center;
 }
 footer ul {
