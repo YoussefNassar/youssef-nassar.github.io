@@ -73,6 +73,11 @@ a:hover {
     font-weight: normal;
 }
 
+.gradient {
+    background: linear-gradient(90deg, rgba(255,23,228,1)0%, rgba(134,251,251,1)100%);
+    height: 3px;
+}
+
 #contact {
     padding: 2rem 0rem 3rem;
     font-size: 1rem;
@@ -143,6 +148,10 @@ nav a:hover {
     background-color: var(--hotmag);
 }
 
+.section-dkblue {
+    background-color: var(--dkblue);
+}
+
 footer {
     padding: 4rem 0;
     text-align: center;
@@ -157,3 +166,64 @@ footer ul {
     gap: 3rem;
     font-size: 3rem;
 }
+
+#projects {
+    padding: 4rem 1rem;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: calc(2.5rem * 1.5);
+}
+
+#projects h3 {
+    color: var(--aqua);
+}
+
+#projects h4 {
+    font-size: 1rem;
+    font-family: var(--mono);
+    margin: 0;
+}
+
+.blackbox {
+    padding: 1rem;
+    background-color: var(--black);
+    border-radius: 15px;
+    color: var(--white);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#projects ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    list-style-type: none;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+#projects img {
+    margin: 2rem 0 4rem 0;
+    border-left: 1px solid var(--aqua);
+    border-top: 1px solid var(--aqua);
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+
+@media (min-width: 850px) {
+    nav {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    nav li:first-child {
+        flex-basis: auto;
+        text-align: right;
+        margin-right: auto;
+    }
+} 
