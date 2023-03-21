@@ -209,7 +209,7 @@ footer ul {
     margin: 0;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: flex-end;
     list-style-type: none;
     gap: 1rem;
     font-size: 1rem;
@@ -254,8 +254,8 @@ footer ul {
         grid-row: 1/2;
     }
 
-    #projects ul {
-        justify-content: flex-end;
+    #projects .reverse ul {
+        justify-content: flex-start;
     }
 }
 
